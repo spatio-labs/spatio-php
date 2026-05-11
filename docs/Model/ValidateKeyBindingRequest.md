@@ -1,0 +1,11 @@
+# ValidateKeyBindingRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**action_id** | **string** |  |
+**key** | **string** |  |
+**modifiers** | **string[]** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
