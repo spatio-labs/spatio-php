@@ -11,7 +11,7 @@
         "api"
     ],
     "homepage": "https://www.spatio.app/developers/docs/sdk",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Spatio Labs",
