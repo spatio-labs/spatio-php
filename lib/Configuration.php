@@ -12,7 +12,7 @@
 /**
  * SpatioAPI
  *
- * The REST API that owns every resource in your Spatio workspace: notes, sheets, slides, tasks, calendar events, mail, chat, files, and contacts. SpatioMCP wraps this API; Spatio Desktop reads from it. You can call it directly from your own code.  All requests must be authenticated with a Personal Access Token (`Authorization: Bearer pat_...`) or an OAuth 2.1 access token, and use HTTPS.  Official SDKs (MIT, generated from this spec on every release):  - TypeScript: https://github.com/spatio-labs/spatio-ts (`npm install @spatio/sdk-ts`) - Python: https://github.com/spatio-labs/spatio-py (`pip install spatio-sdk`) - Go: https://github.com/spatio-labs/spatio-go (`go get github.com/spatio-labs/spatio-go`)  This specification is generated from the platform-service Go source on every push to `main`. The spec, not hand-written documentation, is the source of truth: server stubs and SDKs are generated from it, and any drift between the spec and the running service fails CI.
+ * The REST API that owns every resource in your Spatio workspace: notes, sheets, slides, tasks, calendar events, mail, chat, files, and contacts. SpatioMCP wraps this API; Spatio Desktop reads from it. You can call it directly from your own code.  All requests must be authenticated with a Personal Access Token (`Authorization: Bearer pat_...`) or an OAuth 2.1 access token, and use HTTPS.  Official SDKs (MIT, generated from this spec on every release):  - TypeScript: https://github.com/spatio-labs/spatio-ts (`npm install @spatio-labs/spatio-ts`) - Python: https://github.com/spatio-labs/spatio-py (`pip install spatio-sdk`) - Go: https://github.com/spatio-labs/spatio-go (`go get github.com/spatio-labs/spatio-go`)  This specification is generated from the platform-service Go source on every push to `main`. The spec, not hand-written documentation, is the source of truth: server stubs and SDKs are generated from it, and any drift between the spec and the running service fails CI.
  *
  * The version of the OpenAPI document: v1
  * Contact: hello@spatio.app
@@ -101,7 +101,7 @@ class Configuration
      *
      * @var string
      */
-    protected $userAgent = 'OpenAPI-Generator/0.0.1/PHP';
+    protected $userAgent = 'OpenAPI-Generator/0.0.2/PHP';
 
     /**
      * Debug switch (default set to false)
@@ -491,7 +491,7 @@ class Configuration
         $report .= '    OS: ' . php_uname() . PHP_EOL;
         $report .= '    PHP Version: ' . PHP_VERSION . PHP_EOL;
         $report .= '    The version of the OpenAPI document: v1' . PHP_EOL;
-        $report .= '    SDK Package Version: 0.0.1' . PHP_EOL;
+        $report .= '    SDK Package Version: 0.0.2' . PHP_EOL;
         $report .= '    Temp Folder Path: ' . self::getDefaultConfiguration()->getTempFolderPath() . PHP_EOL;
 
         return $report;
